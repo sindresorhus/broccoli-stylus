@@ -22,19 +22,15 @@ StylusFilter.prototype.processString = function (str) {
 	var opts = this.options;
 	var s = stylus(str);
 
-	if (opts.paths) {
-		s.include(opts.paths);
+	if (opts.include) {
+		opts.include.forEach(function (el) {
+			s.include(el);
+		});
 	}
 
 	if (opts.use) {
 		opts.use.forEach(function (el) {
 			s.use(el());
-		});
-	}
-
-	if (opts.set) {
-		opts.set.forEach(function (el) {
-			s.set(el, true);
 		});
 	}
 
@@ -47,6 +43,12 @@ StylusFilter.prototype.processString = function (str) {
 	if (opts.urlFn) {
 		opts.urlFn.forEach(function (el) {
 			s.define(el, stylus.url());
+		});
+	}
+
+	if (opts.set) {
+		Object.keys(opts.set).forEach(function (key) {
+			s.set(key, opts.set[key]);
 		});
 	}
 
