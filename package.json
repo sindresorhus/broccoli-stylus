@@ -26,13 +26,13 @@
     "compile"
   ],
   "dependencies": {
-    "broccoli-filter": "0.0.1",
+    "broccoli-filter": "~0.1.0",
     "rsvp": "^3.0.4",
     "stylus": "^0.42.2"
   },
   "devDependencies": {
     "mocha": "*",
-    "broccoli": "^0.1.1",
+    "broccoli": "~0.2.3",
     "rimraf": "^2.2.6"
   }
 }
