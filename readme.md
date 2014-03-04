@@ -26,7 +26,41 @@ tree = stylus(tree, options);
 
 #### options
 
-TODO
+##### [include](https://github.com/LearnBoost/stylus/blob/master/docs/js.md#includepath)
+
+Type: `Array`
+
+Paths to scan for @import directives when parsing.
+
+##### [use](https://github.com/LearnBoost/stylus/blob/master/docs/js.md#usefn)
+
+Type: `Array`
+
+Pass in Stylus plugins to be used during compilation.
+
+##### [import](https://github.com/LearnBoost/stylus/blob/master/docs/js.md#importpath)
+
+Type: `Array`
+
+Defer importing of the given paths until evaluation is performed.
+
+##### [urlFn](http://learnboost.github.io/stylus/docs/functions.url.html)
+
+Type: `Array`
+
+Will use iterate over the values and call `stylus.define(value, stylus.url());` for each iteration.
+
+##### [set](https://github.com/LearnBoost/stylus/blob/master/docs/js.md#setsetting-value)
+
+Type: `Object`
+
+Set some settings.
+
+##### [define](https://github.com/LearnBoost/stylus/blob/master/docs/js.md#definename-node)
+
+Type: `Object`
+
+Define global variables that will be accessible in Stylus files.
 
 
 ## License
