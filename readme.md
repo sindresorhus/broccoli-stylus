@@ -1,4 +1,4 @@
-# [broccoli](https://github.com/joliss/broccoli)-stylus [![Build Status](https://travis-ci.org/sindresorhus/broccoli-stylus.png?branch=master)](https://travis-ci.org/sindresorhus/broccoli-stylus)
+# [broccoli](https://github.com/joliss/broccoli)-stylus [![Build Status](https://travis-ci.org/sindresorhus/broccoli-stylus.svg?branch=master)](https://travis-ci.org/sindresorhus/broccoli-stylus)
 
 > Compile [Stylus](https://github.com/LearnBoost/stylus)
 
@@ -7,12 +7,12 @@
 
 ## Install
 
-```
-npm install --save broccoli-stylus
+```bash
+$ npm install --save broccoli-stylus
 ```
 
 
-## Example
+## Usage
 
 ```js
 var stylus = require('broccoli-stylus');
@@ -65,4 +65,4 @@ Define global variables that will be accessible in Stylus files.
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+[MIT](http://opensource.org/licenses/MIT) © [Sindre Sorhus](http://sindresorhus.com)
