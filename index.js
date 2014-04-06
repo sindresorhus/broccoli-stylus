@@ -35,7 +35,7 @@ StylusFilter.prototype.processString = function (str) {
 	}
 
 	if (opts.import) {
-		opts.set.forEach(function (el) {
+		opts.import.forEach(function (el) {
 			s.import(el);
 		});
 	}
