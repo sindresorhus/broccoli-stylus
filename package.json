@@ -28,10 +28,10 @@
   "dependencies": {
     "broccoli-filter": "^0.1.0",
     "rsvp": "^3.0.4",
-    "stylus": "^0.43.0"
+    "stylus": "^0.46.3"
   },
   "devDependencies": {
-    "broccoli": "^0.7.2",
+    "broccoli": "^0.12.2",
     "mocha": "*",
     "rimraf": "^2.2.6"
   }
