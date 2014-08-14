@@ -7,7 +7,7 @@
 
 ## Install
 
-```bash
+```sh
 $ npm install --save broccoli-stylus
 ```
 
@@ -28,41 +28,41 @@ tree = stylus(tree, options);
 
 ##### [include](https://github.com/LearnBoost/stylus/blob/master/docs/js.md#includepath)
 
-Type: `Array`
+Type: `array`
 
 Paths to scan for @import directives when parsing.
 
 ##### [use](https://github.com/LearnBoost/stylus/blob/master/docs/js.md#usefn)
 
-Type: `Array`
+Type: `array`
 
 Pass in Stylus plugins to be used during compilation.
 
 ##### [import](https://github.com/LearnBoost/stylus/blob/master/docs/js.md#importpath)
 
-Type: `Array`
+Type: `array`
 
 Defer importing of the given paths until evaluation is performed.
 
 ##### [urlFn](http://learnboost.github.io/stylus/docs/functions.url.html)
 
-Type: `Array`
+Type: `array`
 
 Will use iterate over the values and call `stylus.define(value, stylus.url());` for each iteration.
 
 ##### [set](https://github.com/LearnBoost/stylus/blob/master/docs/js.md#setsetting-value)
 
-Type: `Object`
+Type: `object`
 
 Set some settings.
 
 ##### [define](https://github.com/LearnBoost/stylus/blob/master/docs/js.md#definename-node)
 
-Type: `Object`
+Type: `object`
 
 Define global variables that will be accessible in Stylus files.
 
 
 ## License
 
-[MIT](http://opensource.org/licenses/MIT) © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](http://sindresorhus.com)

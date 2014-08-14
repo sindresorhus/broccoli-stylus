@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('./index')('fixture');
+module.exports = require('./')('fixture');
