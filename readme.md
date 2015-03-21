@@ -7,8 +7,8 @@
 
 ## Install
 
-```sh
-$ npm install --save broccoli-stylus
+```
+$ npm install --save-dev broccoli-stylus
 ```
 
 
@@ -22,7 +22,7 @@ tree = stylus(tree, options);
 
 ## API
 
-### stylus(tree, options)
+### stylus(tree, [options])
 
 #### options
 
