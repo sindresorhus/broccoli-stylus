@@ -1,8 +1,8 @@
 # [broccoli](https://github.com/joliss/broccoli)-stylus [![Build Status](https://travis-ci.org/sindresorhus/broccoli-stylus.svg?branch=master)](https://travis-ci.org/sindresorhus/broccoli-stylus)
 
-> Compile [Stylus](https://github.com/LearnBoost/stylus)
+> Compile [Stylus](https://github.com/stylus/stylus)
 
-*Issues with the output should be reported on the Stylus [issue tracker](https://github.com/LearnBoost/stylus/issues).*
+*Issues with the output should be reported on the Stylus [issue tracker](https://github.com/stylus/stylus/issues).*
 
 
 ## Install
