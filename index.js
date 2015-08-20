@@ -68,7 +68,7 @@ StylusFilter.prototype.processString = function (str) {
 
 			resolve(data);
 		});
-	}.bind(this));
+	});
 };
 
 module.exports = StylusFilter;
