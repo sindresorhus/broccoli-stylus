@@ -8,6 +8,8 @@ function StylusFilter(inputTree, options) {
 		return new StylusFilter(inputTree, options);
 	}
 
+	Filter.call(this, inputTree);
+
 	this.inputTree = inputTree;
 	this.options = options || {};
 }

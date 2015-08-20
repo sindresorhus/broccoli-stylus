@@ -26,9 +26,9 @@
     "compile"
   ],
   "dependencies": {
-    "broccoli-filter": "^0.1.6",
+    "broccoli-filter": "^1.2.0",
     "rsvp": "^3.0.4",
-    "stylus": "^0.51.1"
+    "stylus": "^0.52.0"
   },
   "devDependencies": {
     "broccoli": "^0.16.2",
