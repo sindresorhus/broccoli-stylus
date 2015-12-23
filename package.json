@@ -1,6 +1,6 @@
 {
   "name": "broccoli-stylus",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "Compile Stylus",
   "license": "MIT",
   "repository": "sindresorhus/broccoli-stylus",
