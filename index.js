@@ -22,6 +22,36 @@ StylusFilter.prototype.targetExtension = 'css';
 
 StylusFilter.prototype.processString = function (str) {
 	var opts = this.options;
+
+	var importRegex = new RegExp(/@import ['"].*['"]/);
+	while (importRegex.test(str)) {
+		var imp = importRegex.exec(str);
+		var sourceReg = new RegExp(/['"].*['"]/);
+		var extReg = new RegExp(/.styl/);
+
+		// get import file src and remove quotes
+		var src = sourceReg.exec(imp[0])[0].replace(/"/g, '').replace(/'/g, '');
+
+		// add '.styl' to filename if not exist
+		if (!extReg.test(src)) {
+			src = src + '.styl';
+		}
+
+		// building file path to add to import array
+		src = this.inputTree.inputTree.inputTree + '/' + this.inputTree.srcDir + '/' + src;
+
+		// create import array if not exist
+		if (!opts.import) {
+			opts.import = [];
+		}
+
+		// push file source to import array
+		opts.import.push(src);
+
+		// remove the import from stylus src
+		str = str.replace(importRegex, '');
+	}
+
 	var s = stylus(str);
 
 	if (opts.include) {
