@@ -1,3 +1,9 @@
+# Deprecated
+
+The Stylus project is no longer maintained.
+
+---
+
 # [broccoli](https://github.com/joliss/broccoli)-stylus [![Build Status](https://travis-ci.org/sindresorhus/broccoli-stylus.svg?branch=master)](https://travis-ci.org/sindresorhus/broccoli-stylus)
 
 > Compile [Stylus](https://github.com/stylus/stylus)
